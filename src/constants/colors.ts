@@ -1,0 +1,5 @@
+export const BG = '#f5f4f0'
+export const INK = '#0a0a0a'
+export const ACID = '#C5FF00'
+export const MUTED = '#6b6b6b'
+export const RULE = '#0a0a0a'
