@@ -142,6 +142,17 @@ This project focuses on:
 
 ---
 
+## Screenshots
+### Home Page
+![./screenshots/fold_agency-home_page.png]
+
+### Work Page
+![./screenshots/fold_agency-work_page.png]
+
+### Contact Page
+![./screenshots/fold_agency-contact_page.png]
+
+
 ## Author
 
 **Abdulrahman Mohsen Shoaib**
