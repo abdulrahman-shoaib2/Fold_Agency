@@ -147,4 +147,4 @@ This project focuses on:
 **Abdulrahman Mohsen Shoaib**
 
 * GitHub: https://github.com/abdulrahman-shoaib2
-* LinkedIn: [www.linkedin.com/in/abdulrahman-shoaib](http://www.linkedin.com/in/abdulrahman-shoaib)
+* LinkedIn: [www.linkedin.com/in/abd-sh](http://www.linkedin.com/in/abd-sh)
