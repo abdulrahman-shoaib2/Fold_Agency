@@ -20,7 +20,7 @@ export default function Hero() {
           />
       </div>
 
-      <div className="relative px-24 mt-20">
+      <div className="relative px-12 lg:px-24 mt-20">
         {/* Top label row */}
         <div className=" flex justify-between items-end  pb-0 z-1 animate-translate-down">
           <span className="text-[10px] tracking-tight font-mono text-muted-foreground" >EST. 2013 — BERLIN</span>
@@ -31,18 +31,19 @@ export default function Hero() {
         <div className="relative z-1  mb-25 w-full max-w-350 ">
         <Headline label="WE MAKE THINGS PEOPLE REMEMBER" mainText={{ before: "Creative", highlight: "Studio", after: "That Builds" }} labelClasses='animate-translate-down inline-block [animation-delay:100ms]' mainClasses={{main:'animate-translate-down [animation-delay:200ms]',highlight:'opacity-0 animate-enterFromLeft [animation-delay:250ms] inline-block '}} />
 
-          <div className="mt-4 flex flex-wrap items-center gap-4">
-            <button
+          <div className="mt-4 flex flex-wrap justify-center sm:justify-start items-center gap-4">
+            <Link
+            href={"/work"}
               className="bg-accent text-ink font-mono text-xs font-medium tracking-[0.12em] px-9 py-4 transition-all duration-200 hover:-translate-y-0.5 cursor-pointer"
             >
               SEE OUR WORK
-            </button>
+            </Link>
 
             <Link
-              href="/work"
+              href="/contact"
               className="font-mono text-xs tracking-[0.12em] text-muted no-underline px-9 py-4 cursor-pointer border border-transparent hover:border-accent hover:text-accent transition-all duration-200 hover:-translate-y-0.5 flex items-center gap-2"
             >
-              VIEW ALL PROJECTS
+              Start Project
               <ArrowRight />
             </Link>
 

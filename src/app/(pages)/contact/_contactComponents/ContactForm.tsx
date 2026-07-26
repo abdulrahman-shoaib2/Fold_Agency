@@ -32,7 +32,7 @@ export default function ContactForm() {
         </div>
       ) : (
         <form onSubmit={submit}>
-          <div className="grid grid-cols-2 gap-x-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10">
             <div className="mb-10">
               <label
                 className="text-[9px] tracking-[0.2em] block mb-2 font-mono text-muted-foreground"
@@ -67,7 +67,7 @@ export default function ContactForm() {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-x-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10">
             <div className="mb-10">
               <label
                 className="text-[9px] tracking-[0.2em] block mb-2 font-mono text-muted-foreground"
@@ -144,7 +144,7 @@ export default function ContactForm() {
 
           <button
             type="submit"
-            className="text-[13px] tracking-[0.15em] border-none px-14 py-5 cursor-pointer transition-colors duration-150 font-mono text-accent bg-foreground hover:bg-[#222] flex items-center gap-2"
+            className="text-[13px] tracking-[0.15em] border-none px-14 py-5 cursor-pointer transition-colors duration-150 font-mono text-accent bg-foreground mx-auto md:m-0 hover:bg-[#222] flex items-center gap-2"
           >
             SEND BRIEF <ArrowRight />
           </button>

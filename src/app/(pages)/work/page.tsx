@@ -5,7 +5,7 @@ import ProjectsGrid from './_workComponents/ProjectsGrid'
 export default function WorkPage() {
 
   return (
-    <main className='p-16 bg-background min-h-screen'>
+    <main className='md:p-16 bg-background min-h-screen'>
       {/* Header */}
       <div className="mx-auto max-w-350 border-b border-foreground px-8 pt-20 pb-10">
         <div className="flex flex-wrap flex-col items-start justify-between gap-8">
@@ -15,7 +15,7 @@ export default function WorkPage() {
 
       <ProjectsGrid />
 
-      <div className="mx-auto flex max-w-350 flex-wrap items-center justify-between gap-6 border-t border-ink px-8 py-[60px]">
+      <div className="mx-auto flex max-w-350 flex-wrap justify-center  items-center md:justify-between gap-6 border-t border-ink px-8 py-[60px]">
         <p className="font-display text-[clamp(24px,4vw,42px)] font-black uppercase tracking-[-0.02em]">
           Want to be next?
         </p>

@@ -13,8 +13,8 @@ export default function ProjectsGrid() {
     <>
       
       {/* Filters */}
-      <div className="flex items-center justify-between px-[2.5%] py-8">
-        <div className="flex flex-wrap gap-0.5">
+      <div className="flex flex-col md:flex-row items-center gap-5 justify-between px-[2.5%] py-8">
+        <div className="flex flex-wrap justify-center md:justify-between gap-0.5">
           {filters.map((f) => (
             <button
               key={f}
