@@ -1,41 +1,161 @@
-context
-constants
+# Fold Agency
 
+A modern and responsive creative agency website built with **Next.js**, **TypeScript**, and **Tailwind CSS**. The project showcases a bold editorial-style design with smooth interactions, reusable components, and a clean folder structure.
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Live Demo
+
+🔗 https://fold-agency.vercel.app/
+
+## GitHub Repository
+
+🔗 https://github.com/abdulrahman-shoaib2/Fold_Agency
+
+---
+
+## Features
+
+* Responsive design for desktop, tablet, and mobile devices
+* Modern creative agency UI
+* Multi-page routing with Next.js App Router
+* Reusable and maintainable components
+* Interactive hover effects and animations
+* Project showcase section
+* Services section
+* Statistics section
+* Contact form UI
+* Optimized performance with Next.js
+
+---
+
+## Tech Stack
+
+* Next.js 15
+* React 19
+* TypeScript
+* Tailwind CSS
+* Motion (for animations)
+
+---
+
+## Pages
+
+### Home
+
+* Hero section
+* Services section
+* Agency statistics
+* Featured projects
+* Call-to-action section
+
+### Work
+
+* Project portfolio grid
+* Category filtering
+* Responsive project cards
+
+### Contact
+
+* Agency information
+* Contact form
+* Success state after submission
+
+---
+
+## Project Structure
+
+```bash
+src/
+├── app/
+│   ├── page.tsx
+│   ├── work/
+│   └── contact/
+│
+├── components/
+│   ├── Navbar
+│   ├── Footer
+│   ├── Hero
+│   ├── Services
+│   ├── Stats
+│   └── Projects
+│
+├── data/
+├── hooks/
+├── styles/
+└── utils/
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Clone the repository
+
+```bash
+git clone https://github.com/abdulrahman-shoaib2/Fold_Agency.git
+```
+
+### Navigate to the project
+
+```bash
+cd Fold_Agency
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Design Goals
 
-## Deploy on Vercel
+This project focuses on:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Clean code architecture
+* Component reusability
+* Responsive layouts
+* Performance optimization
+* Consistent design system
+* Modern frontend development practices
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# Fold_Agency" 
+---
+
+## Screenshots
+### Home Page
+![Home Page](./screenshots/fold_agency-home_page.png)
+
+### Work Page
+![Work Page](./screenshots/fold_agency-work_page.png)
+
+### Contact Page
+![Contact Page](./screenshots/fold_agency-contact_page.png)
+
+
+## Author
+
+**Abdulrahman Mohsen Shoaib**
+
+* GitHub: https://github.com/abdulrahman-shoaib2
+* LinkedIn: [www.linkedin.com/in/abd-sh](http://www.linkedin.com/in/abd-sh)
