@@ -7,8 +7,8 @@ export default function ContactPage() {
   return (
     <main className="bg-background min-h-screen pt-16">
       {/* Header strip */}
-      <div className="border-b-4 border-accent bg-foreground px-8 pt-20 pb-[60px]">
-        <div className="mx-auto max-w-[1400px]">
+      <div className="border-b-4 border-accent bg-foreground px-18 pt-20 pb-[60px]">
+        <div className="mx-auto max-w-[1400px] ">
           <Headline label="GET IN TOUCH" mainText={{ before: "Let's Build", highlight: "Something." }} labelClasses='mb-5 block font-mono text-[10px] tracking-[0.25em] text-[#666]!' mainClasses={{ main: "font-display text-[clamp(52px,9vw,130px)]! font-black uppercase leading-[0.88] tracking-[-0.04em] text-background", highlight: "text-accent" }} />
         </div>
       </div>

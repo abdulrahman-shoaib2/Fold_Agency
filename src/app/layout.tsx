@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "@/components/layouts/Footer/Footer";
 import Navbar from "@/components/layouts/Navbar/Navbar";
 import { geistSans, geistMono, barlow, barlowCondensed } from "@/constants/fonts";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,17 +16,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${barlow.variable} ${barlowCondensed.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">
-            <div className="min-h-screen bg-background">
-              <Navbar   />
-              {children}
-              <Footer  />
-            </div>
-        </body>
-    </html>
+    <>
+      <html
+        lang="en"
+        className={`${geistSans.variable} ${geistMono.variable} ${barlow.variable} ${barlowCondensed.variable} h-full antialiased`}
+      >
+        <body className="min-h-full flex flex-col">
+              <div className="min-h-screen bg-background">
+                <Navbar   />
+                {children}
+                <Footer  />
+              </div>
+          </body>
+      </html>
+      <Analytics />
+    </>
   );
 }
